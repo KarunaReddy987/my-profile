@@ -1,0 +1,4 @@
+div.jumbotron-fluid{
+    background-image: url('jumbotron-pic.jpg');
+    min-height: 650px;
+}

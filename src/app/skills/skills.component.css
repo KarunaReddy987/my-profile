@@ -1,0 +1,185 @@
+/* skills */
+
+/* .w3_agileits-service-left h3 {
+    text-align: left;
+   
+}
+
+.skills-right {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+} */
+
+
+
+/*-- Skills bar effects --*/
+
+.skill-grids {
+    margin: 3em 0;
+}
+div.container
+{
+    height: 85vh;
+    
+text-decoration-style: wavy;
+
+
+}
+.skills h4 {
+    font-size: 1.8em;
+    color: #4378ff;
+    letter-spacing: 2px;
+    margin-bottom: 0.8em;
+}
+
+.skills-w3lsleft ul li {
+    display: block;
+    font-size: 1em;
+    color: #999;
+    margin-top: 1em;
+}
+
+.skills-w3lsleft ul li i.fa {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+
+/*-- //Skills bar effects --*/
+
+.vertical-skills {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.vertical-skills li {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.vertical-skills li:before {
+    content: '';
+    background: #03afdd;
+    display: block;
+    top: -53px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.vertical-skills li:after {
+    content: '';
+    background: #9a9a9a;
+    display: block;
+    top: -43px;
+    left: 24px;
+    width: 1px;
+    height: 93px;
+    position: absolute;
+}
+
+@media (max-width: 400px) {
+    .vertical-skills li {
+        width: 25px;
+    }
+}
+
+.vertical-skills li span.skill {
+    position: absolute;
+    animation-duration: 5s;
+    animation-name: height;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.vertical-skills li div.skill {
+    position: absolute;
+    animation-duration: 5s;
+    animation-name: height;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 2;
+}
+
+.vertical-skills li span.title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -85px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+}
+
+span.value {
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin: 6em 0;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
